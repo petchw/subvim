@@ -1,9 +1,9 @@
-" ~/Code/vim-awesome/vim/sessions/default.vim: Vim session script.
-" Created by session.vim 1.5 on 02 April 2013 at 01:55:27.
+" ~/subvim/vim/sessions/default.vim: Vim session script.
+" Created by session.vim 1.5 on 03 June 2013 at 22:53:16.
 " Open this file in Vim and run :source % to restore your session.
 
 set guioptions=eg
-silent! set guifont=Source\ Code\ Pro\ for\ Powerline:h13
+silent! set guifont=Monaco:h14
 if exists('g:syntax_on') != 1 | syntax on | endif
 if exists('g:did_load_filetypes') != 1 | filetype on | endif
 if exists('g:did_load_ftplugin') != 1 | filetype plugin on | endif
