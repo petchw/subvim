@@ -6,6 +6,8 @@ map <C-O> <C-W>l<C-W>k
 set tabstop=2
 set shiftwidth=2
 set cindent
+set expandtab
+set autoindent
 
 map \hs :set hlsearch<cr>
 map \hx :set nohlsearch<cr>
@@ -34,4 +36,10 @@ nmap <D-e> :CtrlPBuffer<cr>
 imap <D-e> <esc>:CtrlPBuffer<cr>
 
 " Back to the previous file
-nmap <D-d> :CtrlPMRUFiles<cr><cr>
+nmap <D-j> :CtrlPMRUFiles<cr><cr>
+imap <D-j> <esc>:CtrlPMRUFiles<cr><cr>
+
+map \rr : ! open ~/StoryMaker/storymaker/www/index.html<cr>
+
+map <D-'> :TComment<cr>
+vmap <D-'> :TComment<cr>gv
