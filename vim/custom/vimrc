@@ -40,6 +40,11 @@ nmap <D-j> :CtrlPMRUFiles<cr><cr>
 imap <D-j> <esc>:CtrlPMRUFiles<cr><cr>
 
 map \rr : ! open ~/StoryMaker/storymaker/www/index.html<cr>
+map \rt : ! open ~/upgrade/storymaker/www/index.html<cr>
 
 map <D-'> :TComment<cr>
 vmap <D-'> :TComment<cr>gv
+
+set cursorline
+
+map \nt :NERDTree ~/StoryMaker/storymaker/www<cr>
