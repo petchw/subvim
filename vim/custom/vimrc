@@ -12,6 +12,9 @@ set autoindent
 map \hs :set hlsearch<cr>
 map \hx :set nohlsearch<cr>
 map \ll :source ~/.vim/custom/vimrc<cr>
+nmap \ii gg=Gg;
+imap \ii <esc>gg=Gg;
+" imap \ii <esc>gg=g'.
 
 " :help easymotion.txt
 let g:EasyMotion_leader_key = '<Leader>' 
@@ -48,3 +51,5 @@ vmap <D-'> :TComment<cr>gv
 set cursorline
 
 map \nt :NERDTree ~/StoryMaker/storymaker/www<cr>
+
+map \py :set makeprg=python\ %<cr>

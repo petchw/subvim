@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/petch/learnbackbone/ExerciseFiles/03/03'
 let g:netrw_dirhist_2='/Users/petch/learnbackbone/ExerciseFiles/04/01'
 let g:netrw_dirhist_3='/Users/petch/learnbackbone/ExerciseFiles/04/06'
 let g:netrw_dirhist_4='/Users/petch/learnbackbone/directory-backbone-ratchet'
 let g:netrw_dirhist_5='/Users/petch/Library/Preferences/Aquamacs Emacs'
+let g:netrw_dirhist_6='/Users/petch/turn/turn.js/demos/bible'
+let g:netrw_dirhist_7='/Users/petch/.emacs.d'
+let g:netrw_dirhist_8='/Users/petch/learnmeteor/leaderboard'
+let g:netrw_dirhist_9='/Users/petch/StoryMaker/storymaker_tool'
