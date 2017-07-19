@@ -1,3 +1,6 @@
-[submodule "python/completers/python/jedi"]
-	path = python/completers/python/jedi
-	url = https://github.com/davidhalter/jedi.git
+[submodule "third_party/requests-futures"]
+	path = third_party/requests-futures
+	url = https://github.com/ross/requests-futures
+[submodule "third_party/ycmd"]
+	path = third_party/ycmd
+	url = https://github.com/Valloric/ycmd
